@@ -72,7 +72,4 @@ WHERE schema_name = @schema_name
 
 DEALLOCATE Table_List;
 
-SELECT 'OIM' Sistema ,
-              table_name Tabela ,
-              nr_qtd QtdOri
-FROM ##table_List
+SELECT * FROM ##table_List
